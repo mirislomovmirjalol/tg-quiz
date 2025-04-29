@@ -1,0 +1,90 @@
+# BrainBoost Quiz App - Project Overview
+
+## Project Vision
+BrainBoost is an AI-powered educational quiz application built as a Telegram Mini App. The platform generates personalized quizzes across various subjects, helping students in Uzbekistan and beyond learn new concepts through interactive questions that adapt to their knowledge level.
+
+## Target Audience
+- Students in Uzbekistan looking for supplementary learning resources
+- Language learners seeking practice opportunities
+- Professionals wanting to expand their knowledge in their field
+- Anyone interested in casual learning through quizzes
+
+## Core Features
+
+### 1. AI-Generated Quizzes
+- **Dynamic Content Creation**: Fresh questions generated for each session
+- **Multiple Subjects**: Support for diverse topics from languages to programming
+- **Multiple Formats**: Multiple choice, true/false, fill-in-the-blank
+
+### 2. Adaptive Learning
+- **Difficulty Adjustment**: Questions become easier or harder based on performance
+- **Knowledge Gap Identification**: System identifies and targets weak areas
+- **Learning Path Personalization**: Customized quiz sequences based on user history
+
+### 3. Social Features
+- **Friend Challenges**: Compete with friends on specific topics
+- **Leaderboards**: Topic-specific and general rankings
+- **Achievement System**: Badges for milestones and mastery
+
+### 4. User Experience
+- **Clean, Mobile-First Interface**: Optimized for Telegram's WebView
+- **Quick Sessions**: 5-10 minute quiz experiences
+- **Progress Tracking**: Visual representation of learning journey
+
+## Technical Architecture
+
+### Frontend
+- **Framework**: Next.js with TypeScript
+- **Styling**: Tailwind CSS for responsive design
+- **State Management**: Zustand for global state
+- **Animation**: Framer Motion for smooth transitions
+
+### Backend
+- **API Routes**: Next.js API routes for serverless functions
+- **AI Integration**: OpenAI API for question generation
+- **Data Storage**: User progress and preferences
+
+### Telegram Integration
+- **Mini App SDK**: @twa-dev/sdk for Telegram WebApp integration
+- **Authentication**: Telegram user authentication
+- **Bot Integration**: Complementary bot for notifications and app launching
+
+## Development Roadmap
+
+### Phase 1: MVP (2-3 weeks)
+- Basic quiz functionality with 3-5 topics
+- AI question generation system
+- Simple user interface
+- Telegram Mini App integration
+
+### Phase 2: Enhanced Features (2-3 weeks)
+- User profiles and progress tracking
+- Adaptive difficulty system
+- Expanded topic library
+- Basic social features
+
+### Phase 3: Polish & Scale (2-3 weeks)
+- Performance optimization
+- Advanced analytics for learning patterns
+- Complete social features
+- Localization for Uzbek and Russian
+
+## Deployment Strategy
+1. Development environment setup with Vercel
+2. Testing within Telegram's sandbox
+3. Production deployment with proper HTTPS
+4. Bot Father integration and Mini App registration
+
+## Monetization Potential
+- Freemium model with basic topics free
+- Premium subscription for advanced features
+- Topic packs for specialized subjects
+- School/university partnerships
+
+## Success Metrics
+- User acquisition and retention rates
+- Quiz completion rates
+- Knowledge improvement tracking
+- User satisfaction ratings
+
+This project leverages your existing skills in Next.js, TypeScript, and Tailwind CSS while providing an opportunity to work with the Telegram Mini App ecosystem and AI integration.
